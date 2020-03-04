@@ -258,7 +258,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .navbar {
-    background: #e3f733;
+    background: #000000;
     padding: 1rem;
   }
 
@@ -359,11 +359,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   /*---------------------------------------
-     HERO              
+     INDEX IMAGE             
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('../images/slider1.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
