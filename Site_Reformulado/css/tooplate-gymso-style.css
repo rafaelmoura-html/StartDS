@@ -252,13 +252,49 @@ https://www.tooplate.com/view/2119-gymso-fitness
     padding: 5rem 0;
   }
 
+  /*---------------------------------------
+    BOTÃO UI UX         
+  -----------------------------------------*/
+
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 45px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(255, 116, 2);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    }
+  
+  .button:hover {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
 
   /*---------------------------------------
      MENU             
   -----------------------------------------*/
 
   .navbar {
-    background: #000000;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     padding: 1rem;
   }
 
